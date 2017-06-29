@@ -1,10 +1,9 @@
 # Control RICOH THETA S Camera API with JavaScript
 
 This is a quick test of accessing the RICOH THETA S API
-with electron. It only uses a handful of commands right now
-and doesn't download and display the spherical images.
+with electron. It only uses a handful of commands right now.
 
-This only provides a template skeleton. It is not intended
+This provides a template skeleton. It is not intended
 to be used by photographers.
 
 ## Prerequisites
