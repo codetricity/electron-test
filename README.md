@@ -1,5 +1,12 @@
 # Control RICOH THETA S Camera API with JavaScript
 
+This is a quick test of accessing the RICOH THETA S API
+with electron. It only uses a handful of commands right now
+and doesn't download and display the spherical images.
+
+This only provides a template skeleton. It is not intended
+to be used by photographers.
+
 ## Prerequisites
 
 ### Install Electron
@@ -23,3 +30,7 @@ upgrade the camera firmware with the RICOH THETA Official Desktop application.
 * [node-rest-client](https://www.npmjs.com/package/node-rest-client)
 * [electron](https://electron.atom.io/)
 * [Node.js](https://nodejs.org/en/)
+
+## Screenshot
+
+![](screenshot.png)
