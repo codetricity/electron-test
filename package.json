@@ -9,6 +9,8 @@
   "author": "Craig Oda",
   "license": "ISC",
   "dependencies": {
-    "node-rest-client": "^3.1.0"
+    "fs": "0.0.1-security",
+    "node-rest-client": "^3.1.0",
+    "request": "^2.81.0"
   }
 }

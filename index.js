@@ -1,4 +1,6 @@
 require('node-rest-client');
+var fs = require('fs');
+var request = require('request');
 
 var Client = require('node-rest-client').Client;
 
@@ -66,5 +68,20 @@ setApiV2 = function() {
       console.log(data);
     var thetaResponse = document.getElementById('thetaResponse');
     thetaResponse.innerHTML = JSON.stringify(data);
+    });
+  }
+
+  getImage = function() {
+    var download = function(uri, filename, callback){
+    request.head(uri, function(err, res, body){
+    console.log('content-type:', res.headers['content-type']);
+    console.log('content-length:', res.headers['content-length']);
+
+    request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+  });
+};
+
+    download('https://www.google.com/images/srpr/logo3w.png', 'google.png', function(){
+     console.log('done');
     });
   }
