@@ -2,15 +2,30 @@
 <html>
     <head>
     </head>
-    <body>
-        <h1>Ricoh THETA API Test</h1>
+    <body style="font-family: Arial">
+        <h1 >Ricoh THETA API Test</h1>
         <img src="theta.png">
         <br>
-        
-        <button onclick="getInfo();">Get THETA Info</button>
-        <p id="thetaResponse"></p>
-        <script type="text/javascript" src="index.js"></script>
-    
 
+<h2>Initialization and API Version</h2>
+<p>
+    Press "Start Session" first, then "Set to V2 API"
+    </p>
+        <button onclick="startSession();">Start Session</button>
+        <button onclick="setApiV2();">Set to V2 API</button>
+    
+        <hr>
+    <h2> Testing and Info</h2>
+        <button onclick="getInfo();">Get THETA Info</button>
+        <button onclick="state();">State</button>
+
+
+        <hr>
+    <h2> Basics</h2>
+        <button onclick="takePicture();">Take Picture</button>
+    <h2>Response</h2>
+    <p id="thetaResponse"></p>
+
+    <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
