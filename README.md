@@ -1,4 +1,4 @@
-# Control RICOH THETA S Camera with JavaScript
+# Control RICOH THETA S Camera API with JavaScript
 
 ## Prerequisites
 
