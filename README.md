@@ -35,6 +35,3 @@ upgrade the camera firmware with the RICOH THETA Official Desktop application.
 
 ![](doc/img/screenshot.png)
 
-Viewer with GoogleVR
-
-![](doc/img/viewer.png)

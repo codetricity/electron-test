@@ -81,7 +81,10 @@ setApiV2 = function() {
   });
 };
 
-    download('https://www.google.com/images/srpr/logo3w.png', 'google.png', function(){
+  // this downloads the last file on my camera only. It's just to test the download function
+  // you'll need to parse the last file taken from the camera. 
+  // I'll probably grab the file URI from the state
+    download('http://192.168.1.1/files/744a605553442020024b0202cb00f201/100RICOH/R0012006.JPG', '360_images/lastFile.jpg', function(){
      console.log('done');
     });
   }

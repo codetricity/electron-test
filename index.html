@@ -3,10 +3,16 @@
     <head>
     </head>
     <body style="font-family: Arial">
-        <h1 >Ricoh THETA API Test</h1>
+    <table style="border: 0">
+        <tr>
+
+            <td>
+        <h1 style="text-align: center">THETA API and JavaScript Dev</h1>
         <img src="gui/theta.png">
         <br>
-
+        </td>
+        <td>
+ 
 <h2>Initialization and API Version</h2>
 <p>
     Press "Start Session" first, then "Set to V2 API"
@@ -24,6 +30,16 @@
     <h2> Basics</h2>
         <button onclick="takePicture();">Take Picture</button>
         <button onclick="getImage();">Download Last Image</button>
+        <p>
+            
+                Download only works as a test from the last file on my camera. 
+        I still need to build a function to grab the file URI and pass
+        it to the download function. Look in index.js to change the fileURI for your tests.
+           
+        </p>
+        </td>
+         </tr>       
+         </table>
 <hr>
     <h2> Display THETA Image</h2>
   <iframe width="100%" height="400px" allowfullscreen
