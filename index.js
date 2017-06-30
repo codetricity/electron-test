@@ -7,6 +7,7 @@ var Client = require('node-rest-client').Client;
 var client = new Client();
 
 
+
 getInfo = function() {
     console.log("button clicked")
     client.get("http://192.168.1.1:80/osc/info", function (data, response) {
@@ -103,3 +104,6 @@ setApiV2 = function() {
     });
   });
   }
+
+// Please enable automatic start of session and then set the API to v2
+console.log('!!!!!! window loaded');
