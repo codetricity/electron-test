@@ -1,9 +1,10 @@
 # Control RICOH THETA S Camera API with JavaScript
 
 This is a quick test of accessing the RICOH THETA S API
-with electron. It only uses a handful of commands right now.
+with electron. It only uses a handful of commands right now. It's intended as code for 
+[this tutorial](http://lists.theta360.guide/t/howto-develop-360-image-desktop-apps-with-javascript-and-ricoh-theta/1353?u=codetricity).
 
-This provides a template skeleton. It is not intended
+It provides a template skeleton for application developers. It is not intended
 to be used by photographers.
 
 ## Prerequisites
@@ -29,8 +30,11 @@ upgrade the camera firmware with the RICOH THETA Official Desktop application.
 * [node-rest-client](https://www.npmjs.com/package/node-rest-client)
 * [electron](https://electron.atom.io/)
 * [Node.js](https://nodejs.org/en/)
+* [Google VR View for the Web](https://developers.google.com/vr/concepts/vrview-web) used for 360 image display
+* [Google Open Spherical Camera API](https://developers.google.com/streetview/open-spherical-camera/) that the THETA API is based on and compliant with
 
 ## Screenshot
 
 ![](doc/img/screenshot.png)
 
+![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/electronTutorial)
